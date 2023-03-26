@@ -140,3 +140,23 @@ form .btn input {
 form .btn input:hover {
 	background-color: #ff328e;
 }
+
+@media (max-width: 640px) {
+	.main {
+		max-width: 100%;
+	}
+
+	form .main-box .input-box {
+		width: 100%;
+		margin: 5px 0;
+	}
+
+	form .container .category {
+		width: 100%;
+	}
+
+	form .main-box {
+		max-height: 430px;
+		overflow-y: scroll;
+	}
+}
